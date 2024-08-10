@@ -1,0 +1,35 @@
+###Aliases
+alias cdw="cd /Users/eto/workspace/"
+alias pwgen="pwgen 21 1 -y"
+alias vu=vi
+alias gitsuperclean='git reset --hard; git clean --force -d -x'
+alias ls=lsd
+alias cat='bat --paging=never'
+alias less='bat --style=numbers --color=always'
+alias hist='history | fzf'
+
+#vscode
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+
+### K8s Aliases
+alias kuba="source  ~/.kuba"
+alias kgp='kubectl get pods'
+alias kgs='kubectl get svc'
+alias kgd='kubectl get deploy'
+alias kge='kubectl get ep'
+alias kgn='kubectl get nodes'
+alias kga='kubectl get all'
+alias kga='kubectl get all'
+alias kgt='kubectl top po -A --sort-by=cpu'
+alias kgr='kubectl get rs'
+alias kdp='kubectl describe pods'
+alias kds='kubectl describe svc'
+alias kdd='kubectl describe deploy'
+alias kde='kubectl describe ep'
+alias kdn='kubectl describe nodes'
+alias kdr='kubectl describe rs'
+alias kev="k get events --sort-by='.metadata.creationTimestamp'"
+alias kaf="k apply -f"
+
+eval "$(zoxide init zsh)"
