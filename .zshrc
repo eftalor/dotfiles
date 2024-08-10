@@ -1,1 +1,1 @@
-source ~/.myenv
+[[ -f ~/.myenv ]] && source ~/.myenv

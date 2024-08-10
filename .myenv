@@ -10,7 +10,11 @@ alias hist='history | fzf'
 alias grep='grep --color=auto '
 alias rg='rg --hidden'
 
+alias tf="terraform"
+alias a="ansible"
+alias ap="ansible-playbook"
 
+alias ga-'git add"
 alias gp='git push'
 alias gc='git commit'
 alias gca='git commit -a'
@@ -25,7 +29,8 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 
 ### K8s Aliases
-alias kuba="source  ~/.kuba"
+alias k="kubectl"
+alias h="helm"
 alias kgp='kubectl get pods'
 alias kgs='kubectl get svc'
 alias kgd='kubectl get deploy'
