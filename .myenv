@@ -4,9 +4,21 @@ alias pwgen="pwgen 21 1 -y"
 alias vu=vi
 alias gitsuperclean='git reset --hard; git clean --force -d -x'
 alias ls=lsd
-alias cat='bat --paging=never'
+alias cat='bat -pp'
 alias less='bat --style=numbers --color=always'
 alias hist='history | fzf'
+alias grep='grep --color=auto '
+alias rg='rg --hidden'
+
+
+alias gp='git push'
+alias gc='git commit'
+alias gca='git commit -a'
+alias gco='git checkout'
+alias gcb='git copy-branch-name'
+alias gb='git branch'
+alias gs='git status'
+alias gac='git add -A && git commit -m'
 
 #vscode
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
