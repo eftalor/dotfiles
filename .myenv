@@ -4,6 +4,9 @@ alias pwgen="pwgen 21 1 -y"
 alias vu=vi
 alias gitsuperclean='git reset --hard; git clean --force -d -x'
 alias ls=lsd
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 alias cat='bat -pp'
 alias less='bat --style=numbers --color=always'
 alias hist='history | fzf'
