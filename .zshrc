@@ -8,6 +8,7 @@ plugins=(zsh-autosuggestions zsh-syntax-highlighting git docker fzf helm kubectl
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
 autoload -Uz compinit && compinit
+eval "$(fzf --zsh)"
 
 #docker plugin enable completion
 zstyle ':completion:*:*:docker:*' option-stacking yes
